@@ -14,7 +14,7 @@ This blog will chronicle my journey into the world of custom keyboard building. 
 
 ### Design Decisions
 
-So the first things that have to be decided is the keyboard layout. I recommend to use [KLE](http://www.keyboard-layout-editor.com/) to design your layout. This is a useful tool that allow you to create any imaginable layout you can think of. I am a fan of Function Row Less(FRL) layout but I don't want just the usual layout. I'm thinking that if I want to make my own custom keyboard, I better use a unique layout. So I'm thinking of adding extra keys(XT) on the left side. So it will be five more extra keys on top of the typical FRL layout. I also decided to make the top key interchangeable with a rotary encoder. This adds a touch of versatility for volume control or custom functions, depending on your preference. ANSI support only because I ~~hate~~ don't use ISO.
+So the first things that have to be decided is the keyboard layout. I recommend to use [KLE](https://www.keyboard-layout-editor.com/) to design your layout. This is a useful tool that allow you to create any imaginable layout you can think of. I am a fan of Function Row Less(FRL) layout but I don't want just the usual layout. I'm thinking that if I want to make my own custom keyboard, I better use a unique layout. So I'm thinking of adding extra keys(XT) on the left side. So it will be five more extra keys on top of the typical FRL layout. I also decided to make the top key interchangeable with a rotary encoder. This adds a touch of versatility for volume control or custom functions, depending on your preference. ANSI support only because I ~~hate~~ don't use ISO.
 
 ![img-description](/layout.png){: width="700" height="400" }
 _Layout_
