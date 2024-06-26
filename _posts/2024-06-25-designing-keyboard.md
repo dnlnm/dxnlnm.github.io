@@ -32,23 +32,25 @@ As you can see on the schematic below, the PCB just has simple features on it. T
 ![MCU schematic](/sch-mcu.png){: width="700" height="400" }
 _MCU schematic_
 
-For the keys, it's pretty simple. Just a bunch of switch layout in rows and columns which called as matrix.
+For the keys, it's pretty simple. Just a bunch of switches arranged in rows and columns which called as matrix. The matrix is required because the MCU simply don't have enough pins to assign to each switch. A diode also is required for each switch for the matrix to work properly. You can read more about how keyboard matrix works from the QMK [docs](https://docs.qmk.fm/how_a_matrix_works) and this great article [here](http://blog.komar.be/how-to-make-a-keyboard-the-matrix/).
 
 ![Switch schematic](/sch-matrix.png){: width="700" height="400" }
 _Switch schematic_
 
 Once the schematic is completed, now its time for routing the PCB. This is where the fun begins. I think this is most tedious part in designing the board. There is autoroute feature but it's not perfect. If you want clean design, the routing should be done manually. Here I'll share some plugins that help the work easier. The first plugins which I think essential is [kicad-kbplacer](https://github.com/adamws/kicad-kbplacer) which help with the keyboard's key placing. The great thing about this plugin is it support KLE so you can import the JSON file to automatically place the keys layout. Besides that, it's also support automatic diodes placement and track routing for switch-diodes. This plugins help you save a lot of time, I mean A LOT because you don't have to place the keys manually.
 
-Second, if you look closely on the PCB route below, you can see a nice clean rounded on every corner of the tracks. The [kicad-round-tracks](https://github.com/mitxela/kicad-round-tracks) plugin can help achieve this smooth track rounding. I recommend to use this plugin in conjuction with KiCad teardrop feature, which can give teardrop-like look on the vias. My tips is try to avoid sharp corner or 90 degree bend on the track and try to use 45 degree as much as possible, this give a nicer look after the track is rounded.
+Second, if you look closely on the PCB route below, you can see a nice clean rounded on every corner of the tracks. The [kicad-round-tracks](https://github.com/mitxela/kicad-round-tracks) plugin can help achieve this smooth track rounding. I recommend to use this plugin in conjuction with KiCad teardrop feature, which can give teardrop-like look on the vias. My tip is try to avoid sharp corner or 90 degree bend on the track and try to use 45 degree as much as possible, this give a nicer look after the track is rounded.
 
 ![PCB Rounded](/pcb-rounded.png){: width="700" height="400" }
 _PCB Routing_
 
-After complete
+After complete designing, it's time to manufacture the board. But before that, we have to generate all the files necessary to be send to JLCPCB for the board fabrication and assembly. The [KiCAD JLCPCB tools](https://github.com/bouni/kicad-jlcpcb-tools) can help you generate all the files. Besides it's also can help you search and assign the components with the JLCPCB parts database, which the result will be save in the BOM file.
 
 ![JLCPCB Tools](/jlc-parts.png){: width="700" height="400" }
 _JLCPCB Tools_
 
 ### Firmware
+
+The next step is to configure the firmware for the board.
 
 ### Case
