@@ -25,7 +25,7 @@ For the USB connectivity, the keyboard will use Unified Daughterboard C3. This d
 
 ### PCB
 
-The most common software for designing PCB in the custom keyboard building scene is KiCad. There are useful guide on Youtube on how to start design the PCB, I recommend start with video from [Noah Kiser](https://www.youtube.com/@noahkiser/videos) on RP2040. But there is latest guide using STM32, which template is provided for the controller and USB port, it helps for the most part making the design decisions about routing the microcontroller. The PCB Guide from [Zykrah](https://guide.zykrah.me/) and [ai03](https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/) are also a good reading for those who want to start making their own PCBs. The frequent MCU use on keyboard PCB are ATMega32u4 and STM32. But for this project, I choose RP2040, a newer MCU which has QMK support. Besides the availability, it's has more memory and capabilities than the ATMega and STM32. A bigger flash memory maybe useful if you want to use something like an OLED screen later down the road. Also, it's so much cheaper at only \$1 per piece compare to \$5 for the ATMega32u4, at least last year on JLCPCB. I'm not sure about the availability and the prices of right now.
+The most common software for designing PCB in the custom keyboard building scene is KiCad. There are useful guide on Youtube on how to start design the PCB, I recommend start with video from [Noah Kiser](https://www.youtube.com/@noahkiser/videos) on RP2040. But there is latest guide using STM32, which template is provided for the controller and USB port, it helps for the most part making the design decisions about routing the microcontroller. The PCB Guide from [Zykrah](https://guide.zykrah.me/) and [ai03](https://www.masterzen.fr/2020/05/03/designing-a-keyboard-part-1/) are also a good reading for those who want to start making their own PCBs. The frequent MCU use on keyboard PCB are ATMega32u4 and STM32. But for this project, I choose RP2040, a newer MCU which has QMK support. Besides the availability, it's has more memory and capabilities than the ATMega and STM32. A bigger flash memory maybe useful if you want to use something like an OLED screen later down the road. Also, it's so much cheaper at only \$1 per piece compare to \$5 for the ATMega32u4, at least last year on [JLCPCB](https://jlcpcb.com/). I'm not sure about the availability and the prices of right now.
 
 As you can see on the schematic below, the PCB just has simple features on it. This is my third time making PCB but its only my first time designing integrated MCU on board. This is also my learning experience for me and I'm try to keep it simple for now. If you notice, I only add an encoder and a 3mm LED for the capslock. There are no backlight because it will add complexity for me. This will be on my next project. I'm trying to keep the important features work first.
 
@@ -48,6 +48,11 @@ After complete designing, it's time to manufacture the board. But before that, w
 
 ![JLCPCB Tools](/jlc-parts.png){: width="700" height="400" }
 _JLCPCB Tools_
+
+Manufacturing the board is fairly easy, the board gerber files will be upload to JLCPCB along with the BOM and CPL files. I have no experience in dealing with the small SMD components so I choose 'PCB Assembly' so I don't have to manually solder the components later. The board fabrication, parts sourcing and the assembly all will done by JLCPCB itself. But keep in mind that this can increase the cost of manufacturing. Also, the minimum quantity you can order is 5 pieces, this can easily add up to the cost. But of course if you are adventurous and have the tools, you can choose to solder the components yourself. It's take two weeks to ship(to Malaysia) with the shipping option I choose and cost me around 70USD include the shipping.
+
+![PCB](/pcb-render.png){: width="700" height="400" }
+_PCB_
 
 ### Firmware
 
