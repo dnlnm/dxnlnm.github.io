@@ -32,7 +32,7 @@ As you can see on the schematic below, the PCB just has simple features on it. T
 ![MCU schematic](/sch-mcu.png){: width="700" height="400" }
 _MCU schematic_
 
-For the keys, it's pretty simple. Just a bunch of switches arranged in rows and columns which called as matrix. The matrix is required because the MCU simply don't have enough pins to assign to each switch. A diode also is required for each switch for the matrix to work properly. You can read more about how keyboard matrix works from the QMK [docs](https://docs.qmk.fm/how_a_matrix_works) and this great article [here](http://blog.komar.be/how-to-make-a-keyboard-the-matrix/).
+For the keys, it's pretty simple. Just a bunch of switches arranged in rows and columns which called as matrix. The matrix is required because the MCU simply don't have enough pins to assign to each switch. A diode also is required for each switch for the matrix to work properly. You can read more about how keyboard matrix works from the QMK [docs](https://docs.qmk.fm/how_a_matrix_works) and this great article [here](https://blog.komar.be/how-to-make-a-keyboard-the-matrix/).
 
 ![Switch schematic](/sch-matrix.png){: width="700" height="400" }
 _Switch schematic_
