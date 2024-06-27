@@ -49,10 +49,13 @@ After complete designing, it's time to manufacture the board. But before that, w
 ![JLCPCB Tools](/jlc-parts.png){: width="700" height="400" }
 _JLCPCB Tools_
 
-Manufacturing the board is fairly easy, the board gerber files will be upload to JLCPCB along with the BOM and CPL files. I have no experience in dealing with the small SMD components so I choose 'PCB Assembly' so I don't have to manually solder the components later. The board fabrication, parts sourcing and the assembly all will done by JLCPCB itself. But keep in mind that this can increase the cost of manufacturing. Also, the minimum quantity you can order is 5 pieces, this can easily add up to the cost. But of course if you are adventurous and have the tools, you can choose to solder the components yourself. It's take two weeks to ship(to Malaysia) with the shipping option I choose and cost me around 70 USD include the shipping.
+Manufacturing the board is fairly easy, the board gerber files will be upload to JLCPCB along with the BOM and CPL files. I have no experience in dealing with the small SMD components so I choose 'PCB Assembly' so I don't have to manually solder the components later. The board fabrication, parts sourcing and the assembly all will done by JLCPCB itself. But keep in mind that this can increase the cost of manufacturing. Also, the minimum quantity you can order is 5 pieces, this can easily add up to the cost. But of course if you are adventurous and have the tools, you can choose to solder the components yourself. It's take two weeks to ship with the shipping option I choose and cost me around 70 USD include the shipping (to Malaysia).
 
-![PCB](/pcb-render.png){: width="700" height="400" }
-_PCB_
+![PCB](/pcb-top.webp){: width="600" height="400" }
+_PCB Top_
+
+![PCB](/pcb-bottom.webp){: width="600" height="400" }
+_PCB Bottom_
 
 ### Firmware
 
@@ -60,6 +63,9 @@ The next step is to configure the firmware for the board. The most popular and c
 
 ### Case
 
-This is where the fun begins. This process is where I enjoy the most. The software that I used to design is Fusion 360. It's free for personal use.
+This is where the fun begins. This process is where I enjoy the most. For designing the case I use Fusion 360 as it is free for personal use. There are some tutorial on YouTube you can watch. But there are also stream by some designers, where they live streaming their designing process. It is not a tutorial but you can learn a lot from the videos. I will list down some the videos at the bottom of this blog.
+
+![PCB](/fusion.webp){: width="600" height="400" }
+_Fusion 360_
 
 ### Useful Links
