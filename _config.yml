@@ -64,7 +64,7 @@ analytics:
     id: raidtower
   umami:
     id: 7a6684ac-2460-48a9-bcf2-b96d197fb59f
-    domain: blog.raidtower.xyz
+    domain: https://blog.raidtower.xyz
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
