@@ -57,15 +57,19 @@ _PCB Top_
 ![PCB](/pcb-bottom.webp){: width="600" height="400" }
 _PCB Bottom_
 
+### Case
+
+This is where the fun begins. This process is where I enjoy the most. For designing the case I use Fusion 360 as it is free for personal use. There are some tutorial on YouTube you can watch. But there are also stream by some designers, where they live streaming their designing process. It is not a tutorial but you can learn a lot from the videos. I will list down some the videos at the bottom of this blog. The first thing that you have to do is to generate DXF for the plate at [ai03 Plate Generator](https://kbplate.ai03.com/]). Just import the JSON or raw data from KLE to the generator. There is nothing much to do here except I adding the flag to flip the spacebar stabilizer 180 degree. You can do much more customization but this is enough for this design.
+
+![PCB](/fusion.webp){: width="600" height="400" }
+_Fusion 360_
+
 ### Firmware
 
 The next step is to configure the firmware for the board. The most popular and commonly used is the [QMK](https://docs.qmk.fm/) firmware. It is an open source software that allows you to configure the keyboard.
 
-### Case
+### Rendering
 
-This is where the fun begins. This process is where I enjoy the most. For designing the case I use Fusion 360 as it is free for personal use. There are some tutorial on YouTube you can watch. But there are also stream by some designers, where they live streaming their designing process. It is not a tutorial but you can learn a lot from the videos. I will list down some the videos at the bottom of this blog.
-
-![PCB](/fusion.webp){: width="600" height="400" }
-_Fusion 360_
+This is an optional step, just in case you want to render your final design.
 
 ### Useful Links
