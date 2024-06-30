@@ -63,8 +63,8 @@ analytics:
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
-    id: cc0b6d2d-88ec-4f3a-a92c-4d8befeb0dcd
-    domain: blog.raidtower.xyz
+    id: #cc0b6d2d-88ec-4f3a-a92c-4d8befeb0dcd
+    domain: # blog.raidtower.xyz
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
