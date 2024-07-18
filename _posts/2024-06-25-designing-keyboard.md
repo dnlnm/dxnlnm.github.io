@@ -8,7 +8,7 @@ media_subpath: /images/designing-keyboard/
 
 ### Introduction
 
-Ever since I first laid my fingers on a mechanical keyboard, I was hooked. The feeling, feedback and the satisfying clack with every stroke was incredibly satisfying compare to the mushy rubber domes I was used to. It's been almost six years since I dip my toes in this hobby. Only last year I'm started to think about designing my own keyboard. That's when I decided - why not try building one myself from scratch? Yes, from the PCB to the case.
+Ever since I first laid my fingers on a mechanical keyboard, I was hooked. The feeling, feedback and the satisfying clack with every stroke was incredibly satisfying compare to the mushy rubber domes I was used to. It's been almost six years since I dip my toes in this hobby. Only last year I'm started to think about designing my own keyboard. That's when I decided, why not try building one myself from scratch? Yes, from the PCB to the case.
 
 This blog will chronicle my journey into the world of custom keyboard building. From designing the PCB, to configuring custom firmware and lastly the keyboard case itself. This is not a tutorial but I'll be documenting some of the steps, hurdles and the triumphs along the way so you can get a grasp on how to start designing your own keyboards.
 
@@ -59,7 +59,9 @@ _PCB Bottom_
 
 ### Case
 
-This is where the fun begins. This process is where I enjoy the most. For designing the case I use Fusion 360 as it is free for personal use. There are some tutorial on YouTube you can watch. But there are also stream by some designers, where they live streaming their designing process. It is not a tutorial but you can learn a lot from the videos. I will list down some the videos at the bottom of this blog. The first thing that you have to do is to generate DXF for the plate at [ai03 Plate Generator](https://kbplate.ai03.com/]). Just import the JSON or raw data from KLE to the generator. There is nothing much to do here except I adding the flag to flip the spacebar stabilizer 180 degree. You can do much more customization but this is enough for this design.
+This is where the fun begins. This process is where I enjoy the most. For designing the case I use Fusion 360 as it is free for personal use. There are some tutorial on YouTube you can watch. But there are also stream by some designers, where they live streaming their designing process. It is not a tutorial but you can learn a lot from the videos. I will list down some the videos at the bottom of this blog. For my keyboard I choose to make simple three pieces seamless design. We can divide it to four main parts, which are top case, bottom case, weight and plate.
+
+The first thing that you have to do is to generate DXF for the plate at [ai03 Plate Generator](https://kbplate.ai03.com/]). Just import the JSON or raw data from KLE to the generator. There is nothing much to do here except I adding the flag to flip the spacebar stabilizer 180 degree. You can do much more customization but this is enough for this design. Then, import the DXF file into Fusion 360. Here is where you will modified the sketch to include the flex cut and the mounting points.
 
 ![PCB](/fusion.webp){: width="600" height="400" }
 _Fusion 360_
