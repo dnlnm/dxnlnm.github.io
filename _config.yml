@@ -11,8 +11,6 @@ lang: en
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Kuala_Lumpur
 
-plugins:
-  - jekyll-analytics
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
@@ -58,15 +56,8 @@ webmaster_verifications:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-# Jekyll Analytics plugin
-jekyll_analytics:
-  Plausible:
-    domain: "nxim.dev"
-    source: "https://plausible.io/js/script.js"
-
 # Web Analytics Settings
 analytics:
-  provider: "custom"
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
