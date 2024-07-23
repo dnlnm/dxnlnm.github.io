@@ -66,6 +66,7 @@ jekyll_analytics:
 
 # Web Analytics Settings
 analytics:
+  provider: "custom"
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
