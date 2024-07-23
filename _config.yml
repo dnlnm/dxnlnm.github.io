@@ -56,6 +56,12 @@ webmaster_verifications:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
+# Jekyll Analytics plugin
+jekyll_analytics:
+  Plausible:
+    domain: "nxim.dev"
+    source: "https://plausible.io/js/script.js"
+
 # Web Analytics Settings
 analytics:
   google:
